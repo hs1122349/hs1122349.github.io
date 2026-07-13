@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071630"/>
+      <stop offset="100%" stop-color="#0b1e3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#bg4)"/>
+
+  <!-- border checkpoint gate -->
+  <g transform="translate(700,120)" stroke="#5fe0d0" stroke-width="6" fill="none">
+    <line x1="0" y1="0" x2="0" y2="420"/>
+    <line x1="220" y1="0" x2="220" y2="420"/>
+    <line x1="0" y1="10" x2="220" y2="10"/>
+  </g>
+  <g transform="translate(700,140)" fill="#17b8a6">
+    <rect x="60" y="0" width="100" height="14" rx="4"/>
+  </g>
+
+  <!-- declining index line chart -->
+  <g transform="translate(200,180)" stroke="#5fe0d0" stroke-width="4" fill="none">
+    <polyline points="0,60 120,70 240,220 360,190 480,150"/>
+  </g>
+  <g fill="#17b8a6">
+    <circle cx="200" cy="240" r="8"/>
+    <circle cx="320" cy="250" r="8"/>
+    <circle cx="440" cy="400" r="8"/>
+    <circle cx="560" cy="370" r="8"/>
+    <circle cx="680" cy="330" r="8"/>
+  </g>
+  <text x="200" y="470" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#9db0d6">UK-EU trade index, 2016-2023</text>
+  <text x="200" y="500" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#9db0d6">near 100, drops to 52 in 2021, recovers to 80</text>
+
+  <text x="200" y="600" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#ffffff">New customs checks changed the shape of trade</text>
+</svg>

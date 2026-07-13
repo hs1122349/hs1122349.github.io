@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071630"/>
+      <stop offset="100%" stop-color="#0b1e3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#bg6)"/>
+
+  <!-- VII bar chart, six parties, ascending deficit -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="180" y="470" width="120" height="90" rx="6" fill="#17b8a6"/>
+    <text x="240" y="600" font-size="18" fill="#9db0d6" text-anchor="middle">PS</text>
+
+    <rect x="340" y="460" width="120" height="100" rx="6" fill="#17b8a6"/>
+    <text x="400" y="600" font-size="18" fill="#9db0d6" text-anchor="middle">MR</text>
+
+    <rect x="500" y="410" width="120" height="150" rx="6" fill="#5fe0d0"/>
+    <text x="560" y="600" font-size="16" fill="#9db0d6" text-anchor="middle">Les Engagés</text>
+
+    <rect x="660" y="360" width="120" height="200" rx="6" fill="#5fe0d0"/>
+    <text x="720" y="600" font-size="18" fill="#9db0d6" text-anchor="middle">DéFI</text>
+
+    <rect x="820" y="300" width="120" height="260" rx="6" fill="#5fe0d0"/>
+    <text x="880" y="600" font-size="18" fill="#9db0d6" text-anchor="middle">PTB</text>
+
+    <rect x="980" y="180" width="120" height="380" rx="6" fill="#e0a656"/>
+    <text x="1040" y="600" font-size="18" fill="#ffffff" text-anchor="middle">Chez Nous</text>
+
+    <text x="180" y="150" font-size="22" fill="#dbe4f5">Visibility deficit (VII), six Belgian parties</text>
+    <text x="180" y="180" font-size="16" fill="#9db0d6">Higher bar = larger gap between broadcast exclusion and online reach</text>
+  </g>
+
+  <text x="180" y="650" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Chez Nous: highest deficit, lowest efficiency</text>
+</svg>

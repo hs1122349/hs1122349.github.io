@@ -1,0 +1,46 @@
+<svg viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071630"/>
+      <stop offset="100%" stop-color="#0b1e3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#bg2)"/>
+
+  <!-- triage pipeline: scan -> model -> priority queue -->
+  <g font-family="Arial, Helvetica, sans-serif" fill="#dbe4f5">
+    <rect x="140" y="260" width="220" height="140" rx="14" fill="#0f2a52" stroke="#5fe0d0" stroke-width="2"/>
+    <text x="250" y="335" font-size="24" text-anchor="middle" fill="#ffffff">Scan in</text>
+
+    <path d="M380 330 L500 330" stroke="#17b8a6" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="520" y="260" width="220" height="140" rx="14" fill="#0f2a52" stroke="#5fe0d0" stroke-width="2"/>
+    <text x="630" y="325" font-size="22" text-anchor="middle" fill="#ffffff">AI model</text>
+    <text x="630" y="355" font-size="18" text-anchor="middle" fill="#9db0d6">scores urgency</text>
+
+    <path d="M760 330 L880 330" stroke="#17b8a6" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="900" y="140" width="260" height="80" rx="10" fill="#17b8a6"/>
+    <text x="1030" y="190" font-size="20" text-anchor="middle" fill="#071630" font-weight="700">Urgent - reviewed first</text>
+
+    <rect x="900" y="320" width="260" height="80" rx="10" fill="#0f2a52" stroke="#5fe0d0" stroke-width="2"/>
+    <text x="1030" y="368" font-size="20" text-anchor="middle" fill="#ffffff">Routine - queued</text>
+
+    <path d="M900 330 L900 180 L900 180" stroke="#5fe0d0" stroke-width="3" fill="none"/>
+    <path d="M880 330 L900 330" stroke="#5fe0d0" stroke-width="3"/>
+    <path d="M880 330 Q890 180 900 180" stroke="#5fe0d0" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="900" y="460" width="260" height="80" rx="10" fill="#0f2a52" stroke="#5fe0d0" stroke-width="2"/>
+    <text x="1030" y="508" font-size="20" text-anchor="middle" fill="#ffffff">Clinician confirms</text>
+    <path d="M1030 400 L1030 460" stroke="#5fe0d0" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1030 220 Q1030 340 1030 460" stroke="#5fe0d0" stroke-width="3" fill="none"/>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#17b8a6"/>
+    </marker>
+  </defs>
+
+  <text x="140" y="620" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#ffffff">A clinician still makes every final call</text>
+</svg>

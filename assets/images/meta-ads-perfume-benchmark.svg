@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1e3d"/>
+      <stop offset="100%" stop-color="#071630"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#bg)"/>
+
+  <!-- bar chart -->
+  <g opacity="0.95">
+    <rect x="180" y="430" width="90" height="140" rx="6" fill="#17b8a6"/>
+    <rect x="300" y="360" width="90" height="210" rx="6" fill="#5fe0d0"/>
+    <rect x="420" y="290" width="90" height="280" rx="6" fill="#17b8a6"/>
+    <rect x="540" y="330" width="90" height="240" rx="6" fill="#5fe0d0"/>
+    <rect x="660" y="250" width="90" height="320" rx="6" fill="#17b8a6"/>
+  </g>
+
+  <!-- perfume bottle silhouette -->
+  <g transform="translate(980,140)" fill="#dbe4f5" opacity="0.9">
+    <rect x="40" y="0" width="30" height="26" rx="4" fill="#5fe0d0"/>
+    <rect x="20" y="26" width="70" height="18" rx="4"/>
+    <path d="M0 44 h110 v230 a20 20 0 0 1 -20 20 h-70 a20 20 0 0 1 -20 -20 z" />
+  </g>
+
+  <!-- ad tags -->
+  <g transform="translate(1180,90)" fill="none" stroke="#5fe0d0" stroke-width="3">
+    <circle cx="0" cy="0" r="26"/>
+    <path d="M-9 0 h18 M0 -9 v18"/>
+  </g>
+  <g transform="translate(1260,190)" fill="none" stroke="#17b8a6" stroke-width="3">
+    <circle cx="0" cy="0" r="18"/>
+    <path d="M-6 0 h12 M0 -6 v12"/>
+  </g>
+
+  <text x="180" y="640" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Meta Ads Benchmarking &#183; Perfume Category</text>
+</svg>

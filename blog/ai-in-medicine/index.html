@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How AI is changing modern medicine - Hedi Souki</title>
+<meta name="description" content="Where AI already saves lives in hospitals today, how the models work, and how clinicians use them in practice.">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="hs-theme">
+<div class="hs-site">
+
+  <nav class="hs-nav" id="hs-nav">
+    <div class="hs-nav-inner">
+      <a href="/" class="hs-logo">Hedi Souki</a>
+      <ul class="hs-nav-links">
+        <li><a href="/about/">About</a></li>
+        <li><a href="/experience/">Experience</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/activities/">Activities</a></li>
+        <li><a href="/academics/">Academics</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/testimonial/">Testimonial</a></li>
+        <li><a href="/contact/" class="hs-nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="hs-container" style="padding-top: 40px; padding-bottom: 0;">
+    <a href="/blog/" class="hs-home-return">&larr; Back to blog</a>
+  </div>
+
+  <section class="hs-page-hero">
+    <div class="hs-container">
+      <p class="hs-post-tag" style="color:#5fe0d0;">AI &amp; healthcare</p>
+      <h1 class="hs-h1">How AI is changing modern medicine</h1>
+      <p class="hs-lede">Where the technology already saves lives, how the models actually work, and how hospitals put them to use today.</p>
+    </div>
+  </section>
+
+  <section class="hs-section">
+    <div class="hs-container">
+      <div class="hs-post-hero">
+        <img src="/assets/images/neural-network-chest-xray-pneumonia.jpg" alt="Chest X-ray reviewed by a machine learning model">
+      </div>
+
+      <div class="hs-post-body">
+
+        <h2>Where AI already saves lives</h2>
+        <p>Diabetic retinopathy can blind a patient before symptoms ever appear. In 2018, the US FDA authorized IDx-DR, the first AI system cleared to screen for it without a specialist reading the image. A primary care nurse can run the scan and get a result the same day. Stroke care moved the same way. Software that flags a blocked vessel on a brain scan now alerts a stroke team in minutes instead of hours, and minutes matter because brain tissue dies fast once blood flow stops. Hospitals also run sepsis early-warning models that scan vital signs around the clock and flag a patient trending toward danger before a nurse would catch it on rounds.</p>
+
+        <div class="hs-post-image">
+          <img src="/assets/images/medical-ai-scan-analysis.svg" alt="A model trained to flag likely findings on a medical scan">
+        </div>
+
+        <h2>How the models actually work</h2>
+        <p>These systems learn from thousands of labeled images and patient records, not from understanding disease the way a doctor does. A model spots patterns that tend to show up in sick scans versus healthy ones, then outputs a probability. I built a small version of this myself for a university project: a convolutional neural network trained to tell pneumonia cases from healthy chest X-rays. It beat a simpler perceptron model on the same images, and that same basic idea, pattern recognition over pixels, sits behind the tools already running in hospitals today.</p>
+
+        <div class="hs-post-image">
+          <img src="/assets/images/medical-ai-triage-workflow.svg" alt="Triage workflow showing a clinician confirming every AI-flagged case">
+        </div>
+
+        <h2>How hospitals use this in practice today</h2>
+        <p>None of these tools make the final call. A radiologist still reviews every flagged scan, and the AI simply moves the most urgent cases to the front of the queue. That matters because patient volumes keep growing faster than hospital staffing does, and a faster first look can be the difference between catching a problem early and missing the window to treat it. Adoption still varies a lot by country and by hospital, since cost, data privacy rules, and regulatory approval all slow things down. The pattern that holds across every example above is the same: AI supports the clinician's judgment, it does not replace it.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="hs-footer">
+    <div class="hs-container">
+      <p>&copy; <span id="hs-year"></span> Hedi Souki</p>
+    </div>
+  </footer>
+
+</div>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

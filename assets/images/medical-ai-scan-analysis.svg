@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1e3d"/>
+      <stop offset="100%" stop-color="#071630"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#bg1)"/>
+
+  <!-- chest scan silhouette -->
+  <g transform="translate(220,120)" opacity="0.95">
+    <rect x="0" y="0" width="360" height="440" rx="18" fill="#0f2a52" stroke="#5fe0d0" stroke-width="2"/>
+    <ellipse cx="180" cy="150" rx="120" ry="150" fill="none" stroke="#dbe4f5" stroke-width="3" opacity="0.6"/>
+    <ellipse cx="120" cy="150" rx="60" ry="120" fill="none" stroke="#17b8a6" stroke-width="3"/>
+    <ellipse cx="240" cy="150" rx="60" ry="120" fill="none" stroke="#17b8a6" stroke-width="3"/>
+    <circle cx="130" cy="120" r="10" fill="#5fe0d0"/>
+    <circle cx="230" cy="180" r="7" fill="#5fe0d0"/>
+  </g>
+
+  <!-- neural network overlay -->
+  <g transform="translate(760,110)" stroke="#5fe0d0" stroke-width="2" fill="#17b8a6">
+    <circle cx="0" cy="40" r="9"/>
+    <circle cx="0" cy="140" r="9"/>
+    <circle cx="0" cy="240" r="9"/>
+    <circle cx="140" cy="0" r="9"/>
+    <circle cx="140" cy="100" r="9"/>
+    <circle cx="140" cy="200" r="9"/>
+    <circle cx="140" cy="300" r="9"/>
+    <circle cx="280" cy="80" r="9"/>
+    <circle cx="280" cy="200" r="9"/>
+    <circle cx="420" cy="140" r="12" fill="#5fe0d0"/>
+    <g opacity="0.55">
+      <line x1="0" y1="40" x2="140" y2="0"/>
+      <line x1="0" y1="40" x2="140" y2="100"/>
+      <line x1="0" y1="140" x2="140" y2="0"/>
+      <line x1="0" y1="140" x2="140" y2="200"/>
+      <line x1="0" y1="240" x2="140" y2="200"/>
+      <line x1="0" y1="240" x2="140" y2="300"/>
+      <line x1="140" y1="0" x2="280" y2="80"/>
+      <line x1="140" y1="100" x2="280" y2="80"/>
+      <line x1="140" y1="200" x2="280" y2="200"/>
+      <line x1="140" y1="300" x2="280" y2="200"/>
+      <line x1="280" y1="80" x2="420" y2="140"/>
+      <line x1="280" y1="200" x2="420" y2="140"/>
+    </g>
+  </g>
+
+  <text x="220" y="610" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">A model trained to flag likely findings on a scan</text>
+</svg>

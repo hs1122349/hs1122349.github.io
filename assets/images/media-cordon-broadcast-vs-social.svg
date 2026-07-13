@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1e3d"/>
+      <stop offset="100%" stop-color="#071630"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#bg5)"/>
+
+  <!-- TV set with a block symbol -->
+  <g transform="translate(220,200)">
+    <rect x="0" y="0" width="360" height="260" rx="16" fill="#0f2a52" stroke="#5fe0d0" stroke-width="2"/>
+    <rect x="130" y="260" width="100" height="30" fill="#0f2a52" stroke="#5fe0d0" stroke-width="2"/>
+    <circle cx="180" cy="130" r="70" fill="none" stroke="#dbe4f5" stroke-width="4" opacity="0.5"/>
+    <line x1="130" y1="80" x2="230" y2="180" stroke="#e05656" stroke-width="8"/>
+    <line x1="230" y1="80" x2="130" y2="180" stroke="#e05656" stroke-width="8"/>
+  </g>
+  <text x="220" y="520" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#dbe4f5">Broadcast: cordon médiatique</text>
+
+  <!-- phone / social feed -->
+  <g transform="translate(950,140)">
+    <rect x="0" y="0" width="220" height="400" rx="24" fill="#0f2a52" stroke="#5fe0d0" stroke-width="2"/>
+    <rect x="20" y="40" width="180" height="50" rx="8" fill="#17b8a6"/>
+    <rect x="20" y="110" width="180" height="50" rx="8" fill="#1a3a68"/>
+    <rect x="20" y="180" width="180" height="50" rx="8" fill="#5fe0d0"/>
+    <rect x="20" y="250" width="180" height="50" rx="8" fill="#1a3a68"/>
+    <circle cx="110" cy="360" r="14" fill="#5fe0d0"/>
+  </g>
+  <text x="950" y="580" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#dbe4f5">Meta ads: no editorial gate</text>
+
+  <text x="220" y="640" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Two very different sets of rules</text>
+</svg>
